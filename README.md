@@ -28,7 +28,8 @@ bash python3 -m venv venv source venv/bin/activate
 bash pip install -r requirements.txt
 
 ## Whisper-Timestamped Installation
-VideoAndSubtitlesDubber uses the Whisper-Timestamped tool for multilingual automatic speech recognition with word-level timestamps and confidence. This tool is necessary for accurate voice dubbing.
+
+VideoAndSubtitlesDubber uses the Whisper-Timestamped tool for multilingual automatic speech recognition with word-level timestamps and confidence. This tool is necessary for accurate voice dubbing as well as subtile file (.srt) creation.
 
 To install Whisper-Timestamped, first ensure that you have Python3 (version 3.7 or higher, 3.9 is recommended) and ffmpeg installed on your system. If not, follow the instructions on the Whisper repository here.
 
